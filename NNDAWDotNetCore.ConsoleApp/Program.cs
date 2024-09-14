@@ -14,7 +14,7 @@ Console.WriteLine("Hello, World!");
 
 string connectionString = "Data Source=.;Initial Catalog= DotNetTrainingBatch5;User ID=sa;Password=sasa@123;";
 SqlConnection connection = new SqlConnection(connectionString);
-Console.WriteLine("Connection: " + connection);
+Console.WriteLine("Connection: " + connectionString);
 
 Console.WriteLine("Connection opening.....");
 connection.Open();
