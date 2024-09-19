@@ -70,3 +70,21 @@ SqlDataReader reader = cmd.ExecuteReader();
 while(reader.Read()){
 	Console.WriteLine (reader["----"]);
 }
+
+Day 3
+===========
+
+ADO.NET
+
+SqlInjection, so should be used sql parameter
+
+data read  => SqlDataApapter, SqlDataReader
+
+run => SqlCommand.ExecuteNonQuery => return int {count}
+
+Class 
+--------
+project layer > right click > Add > Class
+
+readonly => cann't edit more
+declar variable inner class => starts with _ and small letter {_nameName}
