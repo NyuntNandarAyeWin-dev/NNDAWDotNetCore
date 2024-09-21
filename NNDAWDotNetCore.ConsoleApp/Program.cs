@@ -14,11 +14,20 @@ Console.WriteLine("Hello, World!");
 //nuget.org
 
 
-AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
+//AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
 //adoDotNetExample.Read();
 //adoDotNetExample.Create();
 //adoDotNetExample.Edit();
 //adoDotNetExample.Update();
-adoDotNetExample.Delete();
+//adoDotNetExample.Delete();
+
+DapperExample dapperExample = new DapperExample();
+//dapperExample.Read();
+//dapperExample.Create("Title", "Author", "Content");
+//dapperExample.Update(4, "Title1", "Author1", "Content1");
+//dapperExample.Update(20, "Title1", "Author1", "Content1");
+//dapperExample.Delete(15);
+dapperExample.Edit(25);
+dapperExample.Edit(5);
 
 Console.ReadKey();
