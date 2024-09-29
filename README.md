@@ -88,3 +88,7 @@ project layer > right click > Add > Class
 
 readonly => cann't edit more
 declar variable inner class => starts with _ and small letter {_nameName}
+
+dotnet tool install --global dotnet-ef --version 7
+
+dotnet ef dbcontext scaffold "Server=.;Database=DotNetTrainingBatch5;User Id=sa;Password=sasa@123;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -o Models -c AppDbContext -t TblName -f
