@@ -92,3 +92,33 @@ declar variable inner class => starts with _ and small letter {_nameName}
 dotnet tool install --global dotnet-ef --version 7
 
 dotnet ef dbcontext scaffold "Server=.;Database=DotNetTrainingBatch5;User Id=sa;Password=sasa@123;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -o Models -c AppDbContext -t TblName -f
+
+Json
+var a = {"name" : "mg mg"}
+a.name
+
+JavaScript
+var a = {name : "mg mg"}
+a.name
+
+=> javascript object doesn't work within json file
+
+
+Postman
+
+CRUD
+1. Get		-> read
+2. Post		-> create
+3. Put		-> update
+4. Patch	-> update
+5. Delete	-> delete
+
+endpoint
+https://localhost:3000/api/blog
+
+jsonplaceholder.typicode.com
+
+
+Open api -> swagger 
+
+IActionResult => can return json,file,view

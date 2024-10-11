@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace NNDAWDotNetCore.RestAPI.Controllers
+namespace NNDAWDotNetCore.RestApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]

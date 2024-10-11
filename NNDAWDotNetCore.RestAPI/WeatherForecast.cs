@@ -1,4 +1,4 @@
-namespace NNDAWDotNetCore.RestAPI
+namespace NNDAWDotNetCore.RestApi
 {
     public class WeatherForecast
     {
