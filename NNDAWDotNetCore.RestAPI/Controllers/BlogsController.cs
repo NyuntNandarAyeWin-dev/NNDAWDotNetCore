@@ -99,10 +99,10 @@ namespace NNDAWDotNetCore.RestApi.Controllers
             }
 
             item.DeleteFlag = true;
+            _db.Entry(item).State = EntityState.Modified;
+
             //_db.Entry(item).State = EntityState.Deleted;
             _db.SaveChanges();
-
-            return Ok(item);
             return Ok();
         }
     }

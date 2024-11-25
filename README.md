@@ -103,14 +103,15 @@ a.name
 
 => javascript object doesn't work within json file
 
+Origin server => CDN server => User
 
 Postman
-
+-----------
 CRUD
 1. Get		-> read
 2. Post		-> create
-3. Put		-> update
-4. Patch	-> update
+3. Put		-> update 
+4. Patch	-> update 
 5. Delete	-> delete
 
 endpoint
@@ -121,4 +122,13 @@ jsonplaceholder.typicode.com
 
 Open api -> swagger 
 
-IActionResult => can return json,file,view
+IActionResult => can return json,file,view{page}
+
+port number => can view {Properties => launchSetting}
+
+Request model
+Response model
+Dto
+
+data model (data access, database)
+view model (frontend return data)
