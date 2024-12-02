@@ -13,7 +13,7 @@ namespace NNDAWDotNetCore.RestApi.Controllers
     [ApiController]
     public class BlogsAdoDotNetController : ControllerBase
     {
-        private readonly string _connectionString = "Data Source=.;Initial Catalog=DotNetTrainingBatch5;User Id=sa;Password=sasa@123;TrustServerCertificate=True;";
+       private readonly string _connectionString = "Data Source=.;Initial Catalog=DotNetTrainingBatch5;User Id=sa;Password=sasa@123;TrustServerCertificate=True;";
 
         [HttpGet]
         public IActionResult GetBlogs()
