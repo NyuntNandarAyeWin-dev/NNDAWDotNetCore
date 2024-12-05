@@ -8,19 +8,19 @@ using System.Threading.Tasks;
 
 namespace NNDAWDotNetCore.ConsoleApp.Models
 {
-    //public class BlogDapperDataModel
-    //{
-    //    public int BlogId { get; set; }
+    public class BlogDapperDataModel
+    {
+        public int BlogId { get; set; }
 
-    //    public string BlogTitle { get; set; }
+        public string BlogTitle { get; set; }
 
-    //    public string BlogAuthor { get; set; }
+        public string BlogAuthor { get; set; }
 
-    //    public string BlogContent { get; set; }
+        public string BlogContent { get; set; }
 
-    //    //public int DeleteFlag { get; set; }
+        //public int DeleteFlag { get; set; }
 
-    //}
+    }
 
     [Table("Tbl_Blog")]
     public class BlogDataModel

@@ -132,3 +132,18 @@ Dto
 
 data model (data access, database)
 view model (frontend return data)
+
+minimal api
+Ado.net / dapper => custom service (common used)
+
+Ado.net => ExecuteNonQuery / Filled
+dapper => Execute / Query
+
+DLL => dynamic link library
+
+sqlParameterModel[]
+-> object parameter
+-> if not filled parameter => sqlParameterModel = null
+-> if only one parameter that without create array => need to insert params
+
+** If we used 'params' keyword infront of array data type parameter, we cann't add more parameter
