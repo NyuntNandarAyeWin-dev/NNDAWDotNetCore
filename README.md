@@ -147,3 +147,23 @@ sqlParameterModel[]
 -> if only one parameter that without create array => need to insert params
 
 ** If we used 'params' keyword infront of array data type parameter, we cann't add more parameter
+
+
+- if want to use 'this' keyword, need to use 'static'
+** if class => static, all methods should be static within static class
+
+Eg.
+public static class Endpoint{
+	public static string Test(this int i){
+	return i.ToString();
+	}
+}
+
+recall
+---------
+Endpoint.Test(5); => normal
+
+5.Test(); => static method and this keyword
+
+
+convert c# object  <-> json {package name => newtonsoft.json}
