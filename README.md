@@ -167,3 +167,9 @@ Endpoint.Test(5); => normal
 
 
 convert c# object  <-> json {package name => newtonsoft.json}
+
+File.json
+** Read => convert Object []
+** Read => convert Object [] => Json => Write
+
+bool data type => if return null value, need to add ? {eg. bool?}

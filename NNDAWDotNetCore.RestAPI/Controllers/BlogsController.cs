@@ -70,8 +70,8 @@ namespace NNDAWDotNetCore.RestApi.Controllers
                 return NotFound();
             }
 
-            if (!string.IsNullOrEmpty(blog.BlogTitle)) 
-            { 
+            if (!string.IsNullOrEmpty(blog.BlogTitle))
+            {
                 item.BlogTitle = blog.BlogTitle;
             }
             if (!string.IsNullOrEmpty(blog.BlogAuthor))
