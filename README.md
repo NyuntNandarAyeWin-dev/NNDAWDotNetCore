@@ -173,3 +173,81 @@ File.json
 ** Read => convert Object [] => Json => Write
 
 bool data type => if return null value, need to add ? {eg. bool?}
+
+BlogService => Business logic + Data Access
+BlogServiceController => presentation 
+
+mini Kpay homework
+====================
+
+Database
+------------
+[User]
+Id
+UserName{FullName}
+Mobile No
+Balance
+Pin => passcode
+
+[Bank]
+Deposit => api -> +
+Withdraw => api -> -
+{at least 10000 MMK}
+
+[Transaction History]
+Id
+From Mobile No
+From User Name
+To Mobile No
+To User Name
+Balance
+
+Transfer
+-----------
+From Mobile No
+To Mobile No
+Amount
+Note
+Pin
+
+validation
+-----------
+- From Mobile No check
+- To Mobile No check
+- From Mobile No != To Mobile No
+- Pin  ==
+- Balance >
+
+- From Balance (-)
+- To Balance (+)
+- Message (complete)
+- Transaction History
+
+API
+------
+- Deposit
+- Withdraw
+- Transfer
+- Transaction History
+
+- Create Wallet User
+- Login
+- Change Pin
+- Phone No Change
+- Forget Password
+- Change Password
+- First Time Login
+- Balance check
+
+-----------------------
+{
+	"RespCode", "RespDesp", "RespType", "IsSuccess", "IsError"
+}
+
+**
+Get & Delete => didn't support body {only can carry parameter}
+Post, Put & Patch => support body
+
+
+Httpclient 
+Restclient {contain Execute, ExecuteAsync}

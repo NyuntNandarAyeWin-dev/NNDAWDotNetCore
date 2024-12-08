@@ -20,11 +20,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NNDAWDotNetCore.Shared", "N
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NNDAWDotNetCore.MinimalApi", "NNDAWDotNetCore.MinimalApi\NNDAWDotNetCore.MinimalApi.csproj", "{5299F07C-5000-4487-8406-3EA4B58E3AAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NNDAWDotNetCore.BirdMinimalApi", "NNDAWDotNetCore.BirdMinimalApi\NNDAWDotNetCore.BirdMinimalApi.csproj", "{472504A9-FEBF-4E70-ACD1-43EC4CE66F64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NNDAWDotNetCore.BirdMinimalApi", "NNDAWDotNetCore.BirdMinimalApi\NNDAWDotNetCore.BirdMinimalApi.csproj", "{472504A9-FEBF-4E70-ACD1-43EC4CE66F64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NNDAWDotNetCore.SnakeMinimalApi", "NNDAWDotNetCore.SnakeMinimalApi\NNDAWDotNetCore.SnakeMinimalApi.csproj", "{A3B7E46F-A127-4420-BAB1-6A1912556720}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NNDAWDotNetCore.SnakeMinimalApi", "NNDAWDotNetCore.SnakeMinimalApi\NNDAWDotNetCore.SnakeMinimalApi.csproj", "{A3B7E46F-A127-4420-BAB1-6A1912556720}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NNDAWDotNetCore.Domain", "NNDAWDotNetCore.Domain\NNDAWDotNetCore.Domain.csproj", "{19CBBF66-FA55-4DDA-86A2-CF21462004F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NNDAWDotNetCore.Domain", "NNDAWDotNetCore.Domain\NNDAWDotNetCore.Domain.csproj", "{19CBBF66-FA55-4DDA-86A2-CF21462004F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NNDAWDotNetCore.ConsoleApp3", "NNDAWDotNetCore.ConsoleApp3\NNDAWDotNetCore.ConsoleApp3.csproj", "{4785B654-3CAB-4821-80CF-360AB0FB4AC5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -68,6 +70,10 @@ Global
 		{19CBBF66-FA55-4DDA-86A2-CF21462004F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19CBBF66-FA55-4DDA-86A2-CF21462004F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19CBBF66-FA55-4DDA-86A2-CF21462004F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4785B654-3CAB-4821-80CF-360AB0FB4AC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4785B654-3CAB-4821-80CF-360AB0FB4AC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4785B654-3CAB-4821-80CF-360AB0FB4AC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4785B654-3CAB-4821-80CF-360AB0FB4AC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
