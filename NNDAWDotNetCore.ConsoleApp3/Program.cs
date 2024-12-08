@@ -33,5 +33,13 @@ Console.WriteLine("Hello, World!");
 
 //await httpClientExample.Delete(100);
 
-RestClientExample restClientExample = new RestClientExample();
-await restClientExample.Create(3, "Title 3", "Body 3");
+//RestClientExample restClientExample = new RestClientExample();
+//await restClientExample.Create(3, "Title 3", "Body 3");
+
+Console.WriteLine("Waiting for api.....");
+Console.ReadLine();
+
+RefitExample refitExample = new RefitExample();
+await refitExample.Run();
+
+Console.ReadLine();
